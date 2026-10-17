@@ -1,6 +1,6 @@
 # authentik en AWS: demo con CloudFormation
 
-Templates y scripts de la charla "authentik en AWS" del AWS Community Day Paraguay 2026. El paso a paso completo, con capturas y los errores que me encontré, está en el post: [ENLACE AL POST].
+Templates y scripts de la charla "authentik en AWS" del AWS Community Day Paraguay 2026. El paso a paso completo, con capturas y los errores que me encontré, está en el post: https://blog.melizeche.com/authentik-en-aws-tu-propio-idp-con-cloudformation-iam-identity-center-y-alb 
 
 Con esto desplegás [authentik](https://goauthentik.io) en tu cuenta de AWS (ECS Fargate, RDS PostgreSQL y un Application Load Balancer) y una app de ejemplo, `whoami`, protegida con la acción `authenticate-oidc` del ALB usando authentik como proveedor OpenID. La integración con IAM Identity Center (SAML y SCIM) se configura en las consolas y está explicada en el post.
 
